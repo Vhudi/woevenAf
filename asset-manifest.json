@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/woevenAf/static/css/main.b44c3c85.chunk.css",
+    "main.js": "/woevenAf/static/js/main.eec4571f.chunk.js",
+    "main.js.map": "/woevenAf/static/js/main.eec4571f.chunk.js.map",
+    "runtime-main.js": "/woevenAf/static/js/runtime-main.b2173cc0.js",
+    "runtime-main.js.map": "/woevenAf/static/js/runtime-main.b2173cc0.js.map",
+    "static/js/2.771e3fc7.chunk.js": "/woevenAf/static/js/2.771e3fc7.chunk.js",
+    "static/js/2.771e3fc7.chunk.js.map": "/woevenAf/static/js/2.771e3fc7.chunk.js.map",
+    "index.html": "/woevenAf/index.html",
+    "static/css/main.b44c3c85.chunk.css.map": "/woevenAf/static/css/main.b44c3c85.chunk.css.map",
+    "static/js/2.771e3fc7.chunk.js.LICENSE.txt": "/woevenAf/static/js/2.771e3fc7.chunk.js.LICENSE.txt",
+    "static/media/me.75c32bb7.jpg": "/woevenAf/static/media/me.75c32bb7.jpg",
+    "static/media/intro.css": "/woevenAf/static/media/ned.9d9424a3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2173cc0.js",
+    "static/js/2.771e3fc7.chunk.js",
+    "static/css/main.b44c3c85.chunk.css",
+    "static/js/main.eec4571f.chunk.js"
+  ]
+}
