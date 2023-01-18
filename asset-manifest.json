@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/woevenAf/static/css/main.b44c3c85.chunk.css",
-    "main.js": "/woevenAf/static/js/main.eec4571f.chunk.js",
-    "main.js.map": "/woevenAf/static/js/main.eec4571f.chunk.js.map",
-    "runtime-main.js": "/woevenAf/static/js/runtime-main.b2173cc0.js",
-    "runtime-main.js.map": "/woevenAf/static/js/runtime-main.b2173cc0.js.map",
-    "static/js/2.771e3fc7.chunk.js": "/woevenAf/static/js/2.771e3fc7.chunk.js",
-    "static/js/2.771e3fc7.chunk.js.map": "/woevenAf/static/js/2.771e3fc7.chunk.js.map",
-    "index.html": "/woevenAf/index.html",
-    "static/css/main.b44c3c85.chunk.css.map": "/woevenAf/static/css/main.b44c3c85.chunk.css.map",
-    "static/js/2.771e3fc7.chunk.js.LICENSE.txt": "/woevenAf/static/js/2.771e3fc7.chunk.js.LICENSE.txt",
-    "static/media/me.75c32bb7.jpg": "/woevenAf/static/media/me.75c32bb7.jpg",
-    "static/media/intro.css": "/woevenAf/static/media/ned.9d9424a3.jpg"
+    "main.css": "/Vhudi/WoevenAfreekuh.git/static/css/main.cf92255f.css",
+    "main.js": "/Vhudi/WoevenAfreekuh.git/static/js/main.a48bb0b9.js",
+    "static/media/port-2.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/port-2.853ae734353fbff34a4e.jpg",
+    "static/media/port-1.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/port-1.6d1f64a4a6d2c5be2c3f.jpg",
+    "static/media/port-4.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/port-4.3eef73751e63306b13af.jpg",
+    "static/media/port-3.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/port-3.579c830817e83edf1056.jpg",
+    "static/media/port-6.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/port-6.f4c51607db64979759f5.jpg",
+    "static/media/port-9.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/port-9.6e24da68177cd381de54.jpg",
+    "static/media/port-8.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/port-8.9a9a7d4969f60e3ca96d.jpg",
+    "static/media/port-5.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/port-5.797e793cdd14458fd895.jpg",
+    "static/media/port-7.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/port-7.3ec0352cbc6de9d21af8.jpg",
+    "static/media/port-10.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/port-10.3780c87e20cea3ccbe4e.jpg",
+    "static/media/ned.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/ned.9d9424a3b90f189f67a4.jpg",
+    "static/media/port-12.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/port-12.a3a17efc6621c627f124.jpg",
+    "static/media/logoWA.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/logoWA.9537a741d0a2555ab980.jpg",
+    "static/media/me.jpg": "/Vhudi/WoevenAfreekuh.git/static/media/me.75c32bb7c3537e51ff69.jpg",
+    "static/media/logoWA-trans.png": "/Vhudi/WoevenAfreekuh.git/static/media/logoWA-trans.fbe4959d1acacc4ec67a.png",
+    "index.html": "/Vhudi/WoevenAfreekuh.git/index.html",
+    "main.cf92255f.css.map": "/Vhudi/WoevenAfreekuh.git/static/css/main.cf92255f.css.map",
+    "main.a48bb0b9.js.map": "/Vhudi/WoevenAfreekuh.git/static/js/main.a48bb0b9.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.b2173cc0.js",
-    "static/js/2.771e3fc7.chunk.js",
-    "static/css/main.b44c3c85.chunk.css",
-    "static/js/main.eec4571f.chunk.js"
+    "static/css/main.cf92255f.css",
+    "static/js/main.a48bb0b9.js"
   ]
 }
