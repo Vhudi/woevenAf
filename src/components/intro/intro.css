@@ -1,6 +1,7 @@
 .i{
     display: flex;
     height: 100vh;
+    padding-top: 7vh;
 }
 
 .i-left{
@@ -15,10 +16,14 @@
 }
 
 .i-left-wrapper {
-    padding: 60px;
-    height: 60%;
+    padding: 70px;
+    height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+.nav-logo {
+    height: 10%;
 }
 
 .i-intro{
@@ -31,22 +36,22 @@
 }
 
 .i-title-wrapper {
- height: 100;
+ height: 100%;
  animation: move 10s ease-in-out infinite alternate;
 }
 
 @keyframes move{
     25%{
-        transform: translateY(-50px);
+        transform: translateY(-45px);
     }
     50%{
-        transform: translateY(-100px);
+        transform: translateY(-95px);
     }
     75%{
-        transform: translateY(-125px);
+        transform: translateY(-140px);
     }
     100%{
-        transform: translateY(-150px);
+        transform: translateY(-145px);
     }
 }
 
@@ -67,19 +72,36 @@
 
 .i-img{
     width: 100%;
-    height: 150vh;
-    object-fit: cover;
-    top: 0;
-    right: 0;
-}
+    object-fit: fill;
+    overflow:hidden;
 
-.bgcolor {
-    width: 100%;
-    height: 10%;
-    background-image: url(../../images/ned.jpg);
-    background-repeat: repeat;/* Determine what direction the image will repeat */
 }
 
 .nav-item .active{
    background-color: gray;  
 }
+
+.typed {
+    font-size: 60px;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid;
+    width: 0;
+    animation: typing 5s steps(30, end) forwards, blinking 2s infinite alternate;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+  }
+    
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blinking {
+    0% {border-color: transparent}
+    50% {border-color: black}
+    100% {border-color: transparent}
+  }
+  

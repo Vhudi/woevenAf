@@ -1,0 +1,31 @@
+.nav{
+    position:fixed;
+}
+
+link.active {
+    background-color: #f4511e;
+}
+
+.bgcolor {
+    height: 7vh;
+    overflow: hidden;
+    background-color:floralwhite;
+    opacity: 0.98;
+    background-position: absolute;
+    background-image: url(../../images/ned.jpg);
+    background-repeat: repeat;/* Determine what direction the image will repeat */
+}
+
+.navbar-brand {
+    width: 40px;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+}
+
+.nav-img {
+    max-width:100%;
+    max-height: fit-content;
+    overflow: hidden;
+}

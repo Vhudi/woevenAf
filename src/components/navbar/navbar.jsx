@@ -1,24 +1,29 @@
-import React, { Component } from 'react'
+import React from 'react';
+import "./navbar.css"
+import logo from "../../images/logoWA.jpg"
+import { Nav, Navbar} from 'react-bootstrap';
+import { Link, NavLink } from 'react-router-dom';
+//import { Routes, Route } from "react-router-dom";
 
-class Nav extends Component() {
-  render() {
-      return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-<div class="navbar-nav">
-<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-<a class="nav-item nav-link" href="#">Features</a>
-<a class="nav-item nav-link" href="#">Pricing</a>
-<a class="nav-item nav-link disabled" href="#">Disabled</a>
-</div>
-</div>
-</nav>
-  )
-}
+function NavigationBar() {
+  return( 
+        <div class="container-fluid">
+          <Nav class="nav navbar navbar-dark navbar-expand-sm bgcolor justify-content-center fixed-top" role="navigation">
+            <Link class="navbar-brand" to="">
+                <img class="nav-img" src={logo} alt="Logo"/>
+            </Link>
+            <Navbar class="a">
+              <NavLink  class="active" to='/' className="nav-link text-dark" > WOEVEN AFREEKUH</NavLink>
+              <NavLink to='/about'className="nav-link text-dark">About Company</NavLink>
+              <NavLink  to='/portfolio-work'className="nav-link text-dark">PORTRAIT PHOTOGRAPHY</NavLink>
+              <NavLink  to='/events'className="nav-link text-dark">EVENT PHOTOGRAPHY</NavLink>
+              <NavLink to='/graphicDesign'className="nav-link text-dark">GRAPHIC DESIGN</NavLink>
+              <NavLink to='/#'className="nav-link text-dark">MODELLING</NavLink>
+            </Navbar>
+        </Nav>
+        </div>);
+
+
 };
 
-export default Nav;
+export default NavigationBar;

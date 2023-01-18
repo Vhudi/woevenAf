@@ -1,0 +1,47 @@
+.a {
+    height: 100vh;
+    display: flex;
+    background-color: gainsboro;
+    position: relative;
+  }
+  
+  .a-left {
+    flex: 1;
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100vh;
+    overflow:hidden;
+  }
+
+    .a-right {
+      flex: 1;
+      padding: 150px;
+    }
+  
+  .a-card.bg {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: #333;
+  }
+  
+  .a-img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .a-title {
+    font-weight: 400;
+    font-weight: 500;
+    text-decoration-line: underline;
+  }
+  
+  .a-sub {
+    margin: 10px 0px;
+  }
+  
+  .a-desc{
+      font-weight: 300;
+  }
